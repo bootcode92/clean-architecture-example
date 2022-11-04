@@ -1,8 +1,6 @@
 require('dotenv').config();
 import * as express from 'express';
-import { Application } from 'express';
-import { UserRouter } from './routes/users';
-
+import { UserRouter } from './api/routes/user';
 const port = +process.env.PORT;
 
 // Type the app const.
